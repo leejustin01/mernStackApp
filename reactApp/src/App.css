@@ -1,0 +1,61 @@
+body {
+  background-color: whitesmoke;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: top;
+  font-size: calc(10px + 2vmin);
+  color: black;
+  text-align: center;
+}
+
+tr th {
+  background-color: lightskyblue;
+  border-color: whitesmoke;
+  padding: 10px;
+  border-style: solid;
+  border-width: 1px;
+  color: white;
+}
+
+tr td {
+  background-color: lightgray;
+  color: black;
+  padding: 20px;
+}
+
+#createLink {
+  color: blue;
+}
+
+input {
+  font-family: Arial;
+}
+
+select {
+  font-family: Arial;
+}
+
+button {
+  font-family: Arial;
+}
+
+footer {
+  font-size: 12px;
+  position:fixed;
+  bottom:0;
+  left:0;
+  right:0;
+}
+
+p {
+  font-size: 15px;
+}
+
+nav {
+  font-size: 15px;
+  position: fixed;
+  top: 10px;
+  right:10px;
+}
